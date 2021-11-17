@@ -20,12 +20,14 @@ public class Bankkonto {
     }
 
     public void verarbeiteEinzahlung(int betrag) {
+        // Aufruf der privaten Methode
         inkrementZaehler();
         kontostand = kontostand + betrag;
     }
 
     public void verarbeiteAuszahlung(int betrag) {
         int gebuehr;
+        // Aufruf der privaten Methode
         inkrementZaehler();
         if (kontostand < 100000)
             gebuehr = 15;
