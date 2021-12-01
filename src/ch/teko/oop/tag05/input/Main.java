@@ -16,6 +16,7 @@ public class Main {
         String[] arr4 = {"Das", "ist", "ein", "Array"};
         System.out.println(arr4[2]);
 
+        /*
         double[] arr5 = {1.1,2.2,3.3,4.4,5.5};
         System.out.println(arr5);
 
@@ -44,5 +45,6 @@ public class Main {
         System.out.println(arr7[arr7.length-1]);
         Arrays.sort(arr7);
         System.out.println(arr7[arr7.length-1]);
+        */
     }
 }
