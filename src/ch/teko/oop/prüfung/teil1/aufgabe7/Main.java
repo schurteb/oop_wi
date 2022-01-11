@@ -1,4 +1,4 @@
-package ch.teko.oop.prüfung.aufgabe7;
+package ch.teko.oop.prüfung.teil1.aufgabe7;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package ch.teko.oop.prüfung.aufgabe6;
-
-import java.util.Arrays;
+package ch.teko.oop.prüfung.teil1.aufgabe6;
 
 public class Main {
     public static void main(String[] args) {
