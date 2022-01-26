@@ -31,7 +31,9 @@ public class Main {
         Set<Map.Entry<Integer, Student>> entrySet = studentHashMap.entrySet();
         for (Map.Entry<Integer, Student> e : entrySet) {
             System.out.println(e.getKey());
-            System.out.println(e.getValue());
+            // Objekt Typ Student
+            Student s = e.getValue();
+            System.out.println(s.getForename());
         }
 
         // Key-value pair entfernen über den key
