@@ -11,8 +11,8 @@ public class Main {
         semester1.addStudent(125, new Student("Hüsler", "Philipp"));
 
         // Ausgabe
-        Collection<Student> values1 = semester1.getStudentMap().values();
-        for (Student s : values1) {
+        Collection<Student> values = semester1.getStudentMap().values();
+        for (Student s : values) {
             System.out.println(s.getVorname());
         }
 
@@ -22,8 +22,7 @@ public class Main {
         semester1.removeStudent(124);
 
         // Ausgabe
-        Collection<Student> values2 = semester1.getStudentMap().values();
-        for (Student s : values2) {
+        for (Student s : values) {
             System.out.println(s.getVorname());
         }
 
@@ -33,8 +32,7 @@ public class Main {
         semester1.removeStudent("Hüsler");
 
         // Ausgabe
-        Collection<Student> values3 = semester1.getStudentMap().values();
-        for (Student s : values3) {
+        for (Student s : values) {
             System.out.println(s.getVorname());
         }
     }
