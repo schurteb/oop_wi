@@ -1,0 +1,37 @@
+package ch.teko.oop.tag12.input.ue_oop12_02;
+
+public abstract class Ticket {
+    private Ort eventOrt;
+    private String eventName;
+    private int basisPreis;
+    private int ticketPreis;
+
+    public Ticket(Ort eventOrt, String eventName, int basisPreis) {
+        this.eventOrt = eventOrt;
+        this.eventName = eventName;
+        this.basisPreis = basisPreis;
+    }
+
+    public Ort getEventOrt() {
+        return eventOrt;
+    }
+
+    public String getEventName() {
+        return eventName;
+    }
+
+    public int getBasisPreis() {
+        return basisPreis;
+    }
+
+    public int getTicketPreis() {
+        return ticketPreis;
+    }
+
+    public void setTicketPreis(int ticketPreis) {
+        this.ticketPreis = ticketPreis;
+    }
+
+    // abstrakte Methode
+    public abstract int berechneTicketPreis();
+}
