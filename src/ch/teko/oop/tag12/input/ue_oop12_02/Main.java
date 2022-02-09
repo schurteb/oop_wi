@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
         // neues SportTicket
         Ticket sportTicket = new SportTicket(new Ort("Luzern"), "Pokalfinale", 50, 5);
-        System.out.printf("%s Ticketpreis: %d.-", sportTicket.getEventName(), sportTicket.berechneTicketPreis());
+        System.out.printf("%s Ticketpreis: %f.-", sportTicket.getEventName(), sportTicket.berechneTicketPreis());
     }
 }

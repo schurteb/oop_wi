@@ -13,7 +13,7 @@ public class SportTicket extends Ticket {
     }
 
     @Override
-    public int berechneTicketPreis() {
+    public double berechneTicketPreis() {
         this.setTicketPreis(this.getBasisPreis() + (10 * this.getPokalStufe()));
         return this.getTicketPreis();
     }

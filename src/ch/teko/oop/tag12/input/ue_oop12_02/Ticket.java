@@ -4,7 +4,7 @@ public abstract class Ticket {
     private Ort eventOrt;
     private String eventName;
     private int basisPreis;
-    private int ticketPreis;
+    private double ticketPreis;
 
     public Ticket(Ort eventOrt, String eventName, int basisPreis) {
         this.eventOrt = eventOrt;
@@ -24,14 +24,14 @@ public abstract class Ticket {
         return basisPreis;
     }
 
-    public int getTicketPreis() {
+    public double getTicketPreis() {
         return ticketPreis;
     }
 
-    public void setTicketPreis(int ticketPreis) {
+    public void setTicketPreis(double ticketPreis) {
         this.ticketPreis = ticketPreis;
     }
 
     // abstrakte Methode
-    public abstract int berechneTicketPreis();
+    public abstract double berechneTicketPreis();
 }
